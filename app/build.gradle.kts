@@ -20,6 +20,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    implementation("software.aws.rds:aws-mysql-jdbc:1.1.9")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
